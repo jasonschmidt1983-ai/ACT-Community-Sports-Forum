@@ -1,0 +1,10 @@
+.github/workflows/deploy.yml
+.gitignore
+README.md
+index.html
+package.json
+public/favicon.svg
+src/App.jsx
+src/main.jsx
+src/styles.css
+vite.config.js

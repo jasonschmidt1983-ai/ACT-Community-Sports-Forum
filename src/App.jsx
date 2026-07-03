@@ -365,15 +365,22 @@ function Footer() {
             Good Sports supports clubs with practical tools, resources and guidance to help create healthier, safer and more welcoming sporting environments.
           </p>
         </div>
+
         <address>
-          <a href="mailto:hello@example.com"><Mail size={17} aria-hidden="true" /> hello@example.com</a>
-          <a href="tel:0000000000"><Phone size={17} aria-hidden="true" /> 0000 000 000</a>
+          <a href="mailto:hello@example.com">
+            <Mail size={17} aria-hidden="true" /> hello@example.com
+          </a>
+          tel:0000000000
+            <Phone size={17} aria-hidden="true" /> 0000 000 000
+          </a>
         </address>
+
         <div className="socials" aria-label="Social media links">
-  #topFB</a>
-  #topIG</a>
-  #topIN</a>
-</div>
+          #topFB</a>
+          #topIG</a>
+          #topIN</a>
+        </div>
+      </div>
     </footer>
   );
 }

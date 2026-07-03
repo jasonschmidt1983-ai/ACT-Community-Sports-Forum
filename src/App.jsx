@@ -14,9 +14,6 @@ import {
   ExternalLink,
   Mail,
   Phone,
-  Instagram,
-  Facebook,
-  Linkedin,
 } from 'lucide-react';
 
 const formUrl = 'https://forms.office.com/r/61zBA1AWbn';
@@ -373,11 +370,10 @@ function Footer() {
           <a href="tel:0000000000"><Phone size={17} aria-hidden="true" /> 0000 000 000</a>
         </address>
         <div className="socials" aria-label="Social media links">
-          <a href="#top" aria-label="Facebook placeholder"><Facebook aria-hidden="true" /></a>
-          <a href="#top" aria-label="Instagram placeholder"><Instagram aria-hidden="true" /></a>
-          <a href="#top" aria-label="LinkedIn placeholder"><Linkedin aria-hidden="true" /></a>
-        </div>
-      </div>
+  #topFB</a>
+  #topIG</a>
+  #topIN</a>
+</div>
     </footer>
   );
 }
